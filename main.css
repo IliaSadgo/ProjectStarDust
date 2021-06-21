@@ -1,0 +1,73 @@
+/*ყველა p-ს და ul-ს ედება ლურჯი ფერი */
+p, ul { 
+	color : #4183d7;				
+}
+
+/*ფუტერის ფონი ხდება ნაცრისფერი, ტექსტი - თეთრი*/
+footer {
+	background-color: #273035;
+	color: white;
+}
+
+
+/*article თეგის შიგნით არსებულ span-ებს დაედება ყვითელი ფერი*/
+article span {
+	color: #f7ca18;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/* კლასი - ედება რამდენიმე თეგს. ტექსტის ზომა*/
+.green {
+	color: green;
+}
+
+
+.text-40 {
+	font-size: 40px;
+}
+
+
+/* id - ედება 1 თეგს. სიგანე და სიმაღლე*/
+#logo {
+	width: 150px;
+	/*height: 100px;*/
+}
+
+
+/*უნივერსაალური სელექტორი - ედება ყველაფერს*/
+* {
+	/*color: red;*/
+}
+
+
+
+#test {
+	color: blue;
+}
+
+
+
+
+/*მაღალი პრიორიტეტი*/
+#header {
+	background-color: white;
+}
+
+
+/*საშუალო პრიორიტეტი*/
+.header {
+	background-color: yellow;
+}
+
+
+/*დაბალი პრიორიტეტი*/
+header {
+	background-color: grey;
+}
+
+
+
+
+
